@@ -2,6 +2,17 @@
 
 A local-first Ollama chat app built with Python and Streamlit. SQLite stores conversation history on your machine.
 
+## Tools Used
+
+- **Python** runs the application and its backend logic.
+- **Streamlit** builds the interactive chatbot interface in the browser.
+- **Ollama** runs the language model locally and generates chat replies.
+- **SQLite** stores conversations and messages on the local machine.
+- **python-dotenv** loads optional settings such as the model name and Ollama server URL from `.env`.
+- **HTML and CSS** are used in `ui_companion.html` for a standalone interface mockup.
+- **pytest** runs the automated tests.
+- **Git and GitHub** track the source code and host the project repository.
+
 ## Requirements
 
 - Python 3.10 or newer
